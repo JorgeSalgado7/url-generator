@@ -15,7 +15,7 @@ You can use it to generate a URL-friendly version of any string, and it will rem
 npm i @jorge-salgado/url-generator
 ```
 
-## Or if you prefer you can use the modules individually
+## Or if you prefer it, you can use the modules individually
 
 ### Sanitizer
 
@@ -26,6 +26,18 @@ const SANITIZER = require('@jorge-salgado/url-generator/modules/sanitizer');
 SANITIZER('string to sanitize <script>alert(document.cookie)</script>');
 
 //OUTPUT: 'string to sanitize scriptalertdocumentcookiescript'
+
+
+```
+### URL Pattern
+
+```js
+
+const URL_PATTERN = require('@jorge-salgado/url-generator/modules/urlPattern');
+
+URL_PATTERN('String To Sanitize');
+
+//OUTPUT: 'string-to-sanitize'
 
 
 ```
