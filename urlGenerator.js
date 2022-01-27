@@ -1,7 +1,7 @@
 const SANITIZER = require('./modules/sanitizer.js')
 const URL_PATTERN = require('./modules/urlPattern.js')
 
-const URL_GENERETOR = (string) => {
+const URL_GENERATOR = (string) => {
 
     let url = SANITIZER(string)
     url = URL_PATTERN(url)
@@ -9,4 +9,4 @@ const URL_GENERETOR = (string) => {
 
 }
 
-module.export = URL_GENERETOR
+module.export = URL_GENERATOR
