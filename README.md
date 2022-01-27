@@ -7,12 +7,28 @@ You can use it to generate a URL-friendly version of any string, and it will rem
 - XSS (Cross-site scripting)
 - SQL injection
 
+### The folling characters will be remove:
+|°¬!"#$%&/()=?'\¿¡´¨+~{}[]^`,;.:_@<>
+
 ## Getting started
 
 - Install the module:
 
 ```sh
 npm i @jorge-salgado/url-generator
+```
+
+- Use the module:
+
+```js
+
+const URL_GENERATOR = require('@jorge-salgado/url-generator');
+
+URL_GENERATOR('String To Sanitize <script>alert(document.cookie)</script>');
+
+//OUTPUT: 'string-to-sanitize-scriptalertdocumentcookiescript'
+
+
 ```
 
 ## Or if you prefer it, you can use the modules individually

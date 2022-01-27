@@ -1,6 +1,6 @@
 {
   "name": "@jorge-salgado/url-generator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "urlGenerator.js",
   "scripts": {
