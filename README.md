@@ -17,6 +17,8 @@ npm i @jorge-salgado/url-generator
 
 ## Or if you prefer you can use the modules individually
 
+### Sanitizer
+
 ```js
 
 const SANITIZER = require('@jorge-salgado/url-generator/modules/sanitizer');

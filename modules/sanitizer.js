@@ -1,6 +1,6 @@
 const SANITIZER = (string) => {
 
-    string
+    let urlSanitize = string
         .replaceAll('|', '')
         .replaceAll('°', '')
         .replaceAll('¬', '')
@@ -39,7 +39,7 @@ const SANITIZER = (string) => {
         .replaceAll('<', '')
         .replaceAll('>', '')
 
-    return string
+    return urlSanitize
 
 }
 
