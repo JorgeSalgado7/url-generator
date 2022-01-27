@@ -6,7 +6,23 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "url",
+    "generator",
+    "url sanitizer",
+    "sanitize url",
+    "sanitize string",
+    "url generator",
+    "url pattern"
+  ],
+  "author": "Jorge Salgado",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JorgeSalgado7/url-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JorgeSalgado7/url-generator.git/issues"
+  },
+  "homepage": "https://github.com/JorgeSalgado7/url-generator.git#readme"
 }
