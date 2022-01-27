@@ -9,4 +9,4 @@ const URL_GENERATOR = (string) => {
 
 }
 
-module.export = URL_GENERATOR
+module.exports = URL_GENERATOR
